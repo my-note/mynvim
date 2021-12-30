@@ -49,7 +49,9 @@ return require('packer').startup({
     use "godlygeek/tabular"
     -- markdown插件
     use "plasticboy/vim-markdown"
-
+    use "mzlogin/vim-markdown-toc"
+    use "ferrine/md-img-paste.vim"
+    use "dhruvasagar/vim-table-mode"
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins

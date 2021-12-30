@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/indentLine",
     url = "https://hub.fastgit.org/Yggdroot/indentLine"
   },
+  ["md-img-paste.vim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/md-img-paste.vim",
+    url = "https://hub.fastgit.org/ferrine/md-img-paste.vim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -124,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-markdown",
     url = "https://hub.fastgit.org/plasticboy/vim-markdown"
   },
+  ["vim-markdown-toc"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-markdown-toc",
+    url = "https://hub.fastgit.org/mzlogin/vim-markdown-toc"
+  },
   ["vim-repeat"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-repeat",
@@ -138,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://hub.fastgit.org/tpope/vim-surround"
+  },
+  ["vim-table-mode"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-table-mode",
+    url = "https://hub.fastgit.org/dhruvasagar/vim-table-mode"
   },
   ["vim-unimpaired"] = {
     loaded = true,
