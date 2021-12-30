@@ -52,6 +52,13 @@ return require('packer').startup({
     use "mzlogin/vim-markdown-toc"
     use "ferrine/md-img-paste.vim"
     use "dhruvasagar/vim-table-mode"
+    --状态栏插件
+    use "nvim-lualine/lualine.nvim"
+    use "kyazdani42/nvim-web-devicons"
+    -- bufferline 显示标签页,与lualine配合使用
+    use "akinsho/bufferline.nvim"
+         
+         
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
@@ -63,6 +70,7 @@ return require('packer').startup({
     max_jobs = 16,
     git = {
       default_url_format = "https://hub.fastgit.org/%s"
+      -- default_url_format = "https://github.com/%s"
     },
     display = {
       open_fn = function()

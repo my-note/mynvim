@@ -69,10 +69,20 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://hub.fastgit.org/akinsho/bufferline.nvim"
+  },
   indentLine = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/indentLine",
     url = "https://hub.fastgit.org/Yggdroot/indentLine"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://hub.fastgit.org/nvim-lualine/lualine.nvim"
   },
   ["md-img-paste.vim"] = {
     loaded = true,
@@ -83,6 +93,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://hub.fastgit.org/windwp/nvim-autopairs"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://hub.fastgit.org/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
