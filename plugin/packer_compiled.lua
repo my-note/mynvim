@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://hub.fastgit.org/akinsho/bufferline.nvim"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/formatter.nvim",
+    url = "https://hub.fastgit.org/mhartington/formatter.nvim"
+  },
   ["gruvbox-material"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/gruvbox-material",
@@ -93,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/md-img-paste.vim",
     url = "https://hub.fastgit.org/ferrine/md-img-paste.vim"
+  },
+  neoformat = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/neoformat",
+    url = "https://hub.fastgit.org/sbdchd/neoformat"
   },
   ["nvim-autopairs"] = {
     loaded = true,

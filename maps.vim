@@ -9,3 +9,6 @@ inoremap <C-k> <Up>
 inoremap <C-l> <Right>
 inoremap <C-d> <Delete>
 
+" 代码格式化
+nnoremap <silent> <leader>f :Format<CR>
+

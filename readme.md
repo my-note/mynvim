@@ -6,8 +6,6 @@
 2. ds: delete surround
 3. ys: add surround
 
-
-
 - Press `cs"'` inside `"Hello world!"` to change it to `'Hello world!'`
 - press `cs'<q>` to change it to `<q>Hello world!</q>`
 - To remove the delimiters entirely, press `ds"` to change it to `Hello world!`
@@ -21,14 +19,9 @@
 - Emphasize hello: `ysiw<em>` change to `<em>Hello</em> world!`
 - Finally, let's try out visual mode. Press a capital `V` (for linewise visual mode) followed by `S<p class="important">`.
 
-	```html
-	<p class="important">
-	  <em>Hello</em> world!
-	</p>
-	```
-
-
-
+  ```html
+  <p class="important"><em>Hello</em> world!</p>
+  ```
 
 ## tpope/unimpaired
 
@@ -38,42 +31,38 @@
 - `]l`和`[l`: 遍历位置列表
 - `]q`和`[q`: 遍历快速修复列表
 - `]t`和`[t`: 遍历标签列表
-- `[<Space>` 和 `]<Space>`: 在光标的上和下添加新行, 保持normal模式
+- `[<Space>` 和 `]<Space>`: 在光标的上和下添加新行, 保持 normal 模式
 - `[e` and `]e`: 上下行交换
-- `[x` and `]x`: encode and decode XML (and HTML). 
-- `[u` and `]u`: encode and decode URLs. 
+- `[x` and `]x`: encode and decode XML (and HTML).
+- `[u` and `]u`: encode and decode URLs.
 - `[y` and `]y`: do C String style escaping.
-
-
 
 ## junegunn/vim-easy-align
 
-* vipga=
-    - visual-select inner paragraph
-    - Start EasyAlign command (ga)
-    - Align around =
-* gaip=
-    - Start EasyAlign command (ga) for inner paragraph
-    - Align around =
-
+- vipga=
+  - visual-select inner paragraph
+  - Start EasyAlign command (ga)
+  - Align around =
+- gaip=
+  - Start EasyAlign command (ga) for inner paragraph
+  - Align around =
 
 An alignment rule is a predefined set of options for common alignment tasks, which is identified by a single character, such as <Space>, =, :, ., |, &, #, and ,.
 
-* =
-    - = Around the 1st occurrences
-    - 2= Around the 2nd occurrences
-    - *= Around all occurrences
-    - **= Left/Right alternating alignment around all occurrences
-    - `<Enter>` Switching between left/right/center alignment modes
+- =
 
-* Using regular expression
+  - = Around the 1st occurrences
+  - 2= Around the 2nd occurrences
+  - \*= Around all occurrences
+  - \*\*= Left/Right alternating alignment around all occurrences
+  - `<Enter>` Switching between left/right/center alignment modes
 
-    - pressing <Ctrl-X> in interactive mode
-    - or using :EasyAlign /REGEX/ command in visual mode or in normal mode with a range (e.g. :%)
+- Using regular expression
 
-* 可视模式下使用`=`效果可以试一试
+  - pressing <Ctrl-X> in interactive mode
+  - or using :EasyAlign /REGEX/ command in visual mode or in normal mode with a range (e.g. :%)
 
-
+- 可视模式下使用`=`效果可以试一试
 
 ## BufferLine
 
@@ -93,20 +82,3 @@ vim.api.nvim_set_keymap("n", "<leader>7", "<Cmd>BufferLineGoToBuffer 7<CR>", {no
 vim.api.nvim_set_keymap("n", "<leader>8", "<Cmd>BufferLineGoToBuffer 8<CR>", {noremap = true, silent = true})
 vim.api.nvim_set_keymap("n", "<leader>9", "<Cmd>BufferLineGoToBuffer 9<CR>", {noremap = true, silent = true})
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
