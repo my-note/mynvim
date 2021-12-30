@@ -34,10 +34,16 @@ return require('packer').startup({
     use "tpope/vim-surround"
     -- 点命令加强
     use "tpope/vim-repeat"
+    use "tpope/vim-unimpaired"
 
-
-
-
+    -- 符号自动匹配，比如：输入(自动闭合）
+    use "windwp/nvim-autopairs"
+    -- 自动保存
+    use "907th/vim-auto-save"
+    -- indent
+    use "Yggdroot/indentLine"
+    -- align
+    use "junegunn/vim-easy-align"
 
 
     -- Automatically set up your configuration after cloning packer.nvim

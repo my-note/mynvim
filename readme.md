@@ -30,5 +30,30 @@
 
 
 
+## tpope/unimpaired
+
+- `]a` is `:next`.
+- `]b`和`[b` 循环遍历缓冲区。
+- `]f`和`[f`: 循环遍历同一目录中的文件，并打开为当前缓冲区。
+- `]l`和`[l`: 遍历位置列表
+- `]q`和`[q`: 遍历快速修复列表
+- `]t`和`[t`: 遍历标签列表
+- `[<Space>` 和 `]<Space>`: 在光标的上和下添加新行, 保持normal模式
+- `[e` and `]e`: 上下行交换
+- `[x` and `]x`: encode and decode XML (and HTML). 
+- `[u` and `]u`: encode and decode URLs. 
+- `[y` and `]y`: do C String style escaping.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
