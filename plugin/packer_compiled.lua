@@ -179,6 +179,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-sensible",
     url = "https://hub.fastgit.org/tpope/vim-sensible"
   },
+  ["vim-snippets"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-snippets",
+    url = "https://hub.fastgit.org/honza/vim-snippets"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-surround",

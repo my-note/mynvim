@@ -33,6 +33,13 @@ return require("packer").startup(
             --自动补全
 
             use {"neoclide/coc.nvim", branch = "release"}
+            use "honza/vim-snippets"
+
+            --语法高亮
+            use {
+                "nvim-treesitter/nvim-treesitter",
+                run = ":TSUpdate"
+            }
 
             --注释插件
             use "tpope/vim-commentary"
