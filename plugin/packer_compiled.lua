@@ -69,10 +69,85 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  indentLine = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/indentLine",
+    url = "https://hub.fastgit.org/Yggdroot/indentLine"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://hub.fastgit.org/windwp/nvim-autopairs"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://hub.fastgit.org/wbthomason/packer.nvim"
+  },
+  rainbow = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/rainbow",
+    url = "https://hub.fastgit.org/luochen1990/rainbow"
+  },
+  tabular = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/tabular",
+    url = "https://hub.fastgit.org/godlygeek/tabular"
+  },
+  ["vim-auto-save"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-auto-save",
+    url = "https://hub.fastgit.org/907th/vim-auto-save"
+  },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://hub.fastgit.org/tpope/vim-commentary"
+  },
+  ["vim-easy-align"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-easy-align",
+    url = "https://hub.fastgit.org/junegunn/vim-easy-align"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://hub.fastgit.org/tpope/vim-fugitive"
+  },
+  ["vim-gitgutter"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
+    url = "https://hub.fastgit.org/airblade/vim-gitgutter"
+  },
+  ["vim-markdown"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-markdown",
+    url = "https://hub.fastgit.org/plasticboy/vim-markdown"
+  },
+  ["vim-repeat"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-repeat",
+    url = "https://hub.fastgit.org/tpope/vim-repeat"
+  },
+  ["vim-sensible"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-sensible",
+    url = "https://hub.fastgit.org/tpope/vim-sensible"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://hub.fastgit.org/tpope/vim-surround"
+  },
+  ["vim-unimpaired"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-unimpaired",
+    url = "https://hub.fastgit.org/tpope/vim-unimpaired"
+  },
+  vimwiki = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vimwiki",
+    url = "https://hub.fastgit.org/vimwiki/vimwiki"
   }
 }
 

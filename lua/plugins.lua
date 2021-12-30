@@ -35,7 +35,6 @@ return require('packer').startup({
     -- 点命令加强
     use "tpope/vim-repeat"
     use "tpope/vim-unimpaired"
-
     -- 符号自动匹配，比如：输入(自动闭合）
     use "windwp/nvim-autopairs"
     -- 自动保存
@@ -44,6 +43,12 @@ return require('packer').startup({
     use "Yggdroot/indentLine"
     -- align
     use "junegunn/vim-easy-align"
+    -- vimwiki
+    use {"vimwiki/vimwiki", branch = 'dev'}
+    -- 对齐插件
+    use "godlygeek/tabular"
+    -- markdown插件
+    use "plasticboy/vim-markdown"
 
 
     -- Automatically set up your configuration after cloning packer.nvim
