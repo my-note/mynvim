@@ -30,6 +30,8 @@ return require("packer").startup(
             use "sbdchd/neoformat"
             use "mhartington/formatter.nvim"
 
+            --自动补全
+
             --注释插件
             use "tpope/vim-commentary"
             --彩虹括号
