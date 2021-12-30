@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://hub.fastgit.org/akinsho/bufferline.nvim"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://hub.fastgit.org/neoclide/coc.nvim"
+  },
   ["formatter.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/formatter.nvim",

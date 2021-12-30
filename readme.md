@@ -82,3 +82,19 @@ vim.api.nvim_set_keymap("n", "<leader>7", "<Cmd>BufferLineGoToBuffer 7<CR>", {no
 vim.api.nvim_set_keymap("n", "<leader>8", "<Cmd>BufferLineGoToBuffer 8<CR>", {noremap = true, silent = true})
 vim.api.nvim_set_keymap("n", "<leader>9", "<Cmd>BufferLineGoToBuffer 9<CR>", {noremap = true, silent = true})
 ```
+
+## coc
+
+- 安装 lsp
+
+  1. :CocInstall json
+  2. :CocInstall coc-markdownlint
+
+- 查看安装
+
+  1. :CocList extenstions press `<Tab>` for ops.
+  2. \*,启用，+，未启用
+
+- 查找插件
+
+  1. CocList marketplace

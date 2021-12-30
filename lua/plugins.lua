@@ -32,6 +32,8 @@ return require("packer").startup(
 
             --自动补全
 
+            use {"neoclide/coc.nvim", branch = "release"}
+
             --注释插件
             use "tpope/vim-commentary"
             --彩虹括号

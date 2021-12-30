@@ -58,9 +58,12 @@ set smartcase
 set incsearch
 
 
+set shortmess+=c
+" TextEdit might fail if hidden is not set.
+set hidden
+set updatetime=300
 
-
-
+set conceallevel=0
 
 " augroup markdown_autocmd
 "     autocmd!
