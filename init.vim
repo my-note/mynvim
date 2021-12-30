@@ -11,3 +11,10 @@ source ~/.config/nvim/after/plugin/vimwiki.rc.vim
 " 主题
 source ~/.config/nvim/colors/gruvbox_material.rc.vim
 
+
+
+
+
+
+
+
