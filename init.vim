@@ -8,4 +8,6 @@ lua require('plugins')
 source ~/.config/nvim/after/plugin/rainbow.rc.vim
 " vimwiki
 source ~/.config/nvim/after/plugin/vimwiki.rc.vim
+" 主题
+source ~/.config/nvim/colors/gruvbox_material.rc.vim
 

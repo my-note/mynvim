@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://hub.fastgit.org/akinsho/bufferline.nvim"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://hub.fastgit.org/sainnhe/gruvbox-material"
+  },
   indentLine = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/indentLine",

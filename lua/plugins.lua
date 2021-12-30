@@ -20,6 +20,13 @@ return require('packer').startup({
 
     -- Plugin Manager: Packer can manage itself
     use "wbthomason/packer.nvim"
+
+    -- 主题
+    use "sainnhe/gruvbox-material"
+
+
+
+
     --注释插件
     use "tpope/vim-commentary"
     --彩虹括号
