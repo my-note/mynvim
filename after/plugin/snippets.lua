@@ -16,7 +16,7 @@ local dl = require("luasnip.extras").dynamic_lambda
 local fmt = require("luasnip.extras.fmt").fmt
 local fmta = require("luasnip.extras.fmt").fmta
 local types = require("luasnip.util.types")
-local conds = require("luasnip.extras.conditions")
+local conds = require("luasnip.extras.expand_conditions")
 
 -- Every unspecified option will be set to the default.
 ls.config.set_config(
@@ -259,7 +259,7 @@ ls.snippets = {
         end
       }
     ),
-    -- there's some built-in conditions in "luasnip.extras.conditions".
+    -- there's some built-in conditions in "luasnip.extras.expand_conditions".
     s(
       "cond2",
       {
@@ -563,20 +563,20 @@ ls.autosnippets = {
 ls.filetype_extend("lua", {"c"})
 -- in a cpp file: search c-snippets, then all-snippets only (no cpp-snippets!!).
 ls.filetype_set("cpp", {"c"})
-
 --[[
--- Beside defining your own snippets you can also load snippets from "vscode-like" packages
--- that expose snippets in json files, for example <https://github.com/rafamadriz/friendly-snippets>.
--- Mind that this will extend  `ls.snippets` so you need to do it after your own snippets or you
--- will need to extend the table yourself instead of setting a new one.
+-- 除了定义你自己的代码片段，你还可以从“类似 vscode”的包中加载代码片段
+-- 在 json 文件中公开片段，例如 <https://github.com/rafamadriz/friendly-snippets>.
+-- 请注意，这将扩展 `ls.snippets`，因此您需要在您自己的代码片段之后执行此操作，或者您
+-- 需要自己扩展表格而不是设置一个新表格。
 ]]
---require("luasnip/loaders/from_vscode").load({include = {"python"}}) -- Load only python snippets
+--require("luasnip/loaders/from_vscode").load({ include = { "javascript" } }) -- Load only python snippets
+require("luasnip/loaders/from_vscode").load() -- Load only python snippets
 -- The directories will have to be structured like eg. <https://github.com/rafamadriz/friendly-snippets> (include
 -- a similar `package.json`)
-require("luasnip/loaders/from_vscode").load() -- Load snippets from my-snippets folder
+--require("luasnip/loaders/from_vscode").load({ paths = { "./my-snippets" } }) -- Load snippets from my-snippets folder
+--require("luasnip/loaders/from_vscode").load({ paths = { "/Users/itkey/Documents/my-snippets/" } }) -- Load snippets from my-snippets folder
 
 -- You can also use lazy loading so you only get in memory snippets of languages you use
 --require("luasnip/loaders/from_vscode").lazy_load() -- You can pass { paths = "./my-snippets/"} as well
 
-
-
+require("luasnip/loaders/from_vscode").load({paths = {"~/.config/nvim/other/friendly-snippets/"}}) -- Load snippets from my-snippets folder

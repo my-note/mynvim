@@ -4,12 +4,6 @@ if (not status) then
 end
 
 --local nvim_lsp = require('lspconfig')
---typescript支持
---json支持
---require("lspconf.json")
---lua
---普通的语言支持
---require("lspconf.common")
 
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = "menuone,noselect"
@@ -148,7 +142,7 @@ cmp.setup {
     {name = "luasnip"}, --{name = "nvim_lua"},
     {
       name = "buffer",
-      options = {
+      option = {
         get_bufnrs = function()
           return vim.api.nvim_list_bufs()
         end
@@ -162,5 +156,41 @@ cmp.setup {
     --{name = "emoji"}
   }
 }
+-- Use buffer source for `/` (if you enabled `native_menu`, this won't work anymore).
+cmp.setup.cmdline(
+    "/",
+    {
+        sources = {
+            {name = "buffer"}
+        }
+    }
+)
 
+-- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
+cmp.setup.cmdline(
+    ":",
+    {
+        sources = cmp.config.sources(
+            {
+                {name = "path"}
+            },
+            {
+                {name = "cmdline"}
+            }
+        )
+    }
+)
+-- Add additional capabilities supported by nvim-cmp
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities = require("cmp_nvim_lsp").update_capabilities(capabilities)
 
+local lspconfig = require("lspconfig")
+
+-- Enable some language servers with the additional completion capabilities offered by nvim-cmp
+local servers = {"clangd", "rust_analyzer", "pyright", "tsserver"}
+for _, lsp in ipairs(servers) do
+    lspconfig[lsp].setup {
+        -- on_attach = my_custom_on_attach,
+        capabilities = capabilities
+    }
+end

@@ -99,7 +99,6 @@ return require("packer").startup(
                     "rafamadriz/friendly-snippets" --代码段合集
                 }
             }
-            use "saadparwaiz1/cmp_luasnip"
 
             --注释插件
             use "tpope/vim-commentary"
