@@ -30,11 +30,6 @@ return require("packer").startup(
             use "sbdchd/neoformat"
             use "mhartington/formatter.nvim"
 
-            --自动补全coc
-
-            -- use {"neoclide/coc.nvim", branch = "release"}
-            -- use "honza/vim-snippets"
-
             --自动补全native lsp
             --Nvim LSP 客户端的快速入门配置
             use "neovim/nvim-lspconfig"
@@ -59,7 +54,7 @@ return require("packer").startup(
             -- 自动为尚不支持 Neovim 0.5 内置 lsp 客户端的配色方案创建缺少的 LSP 诊断突出显示组。
             use "folke/lsp-colors.nvim"
             -- 基于neovim 内置lsp 的轻量级lsp 插件，具有高性能UI。非常酷
-            use "rinx/lspsaga.nvim"
+            -- use "rinx/lspsaga.nvim"
 
             --语法高亮
             use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"}
