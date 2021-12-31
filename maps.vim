@@ -11,8 +11,6 @@ inoremap <C-d> <Delete>
 
 " 代码格式化
 nnoremap <silent> <leader>f :Format<CR>
+" 悬浮term
+nmap <silent> <leader>t :FloatermToggle<CR>
 
-" Then you can use :Prettier to format the current buffer.
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-vmap <leader>F  <Plug>(coc-format-selected)
-nmap <leader>F  <Plug>(coc-format-selected)

@@ -98,3 +98,34 @@ vim.api.nvim_set_keymap("n", "<leader>9", "<Cmd>BufferLineGoToBuffer 9<CR>", {no
 - 查找插件
 
   1. CocList marketplace
+
+## 神级文件模糊搜索插件 telescope
+
+- <leader>ff : find_files
+- <leader>fg : live_grep
+- <leader>fb : buffer
+- <leader>fh : help_tag
+- <leader>sf : file_browser
+- <leader>/ : current_buffer_fuzzy_find
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

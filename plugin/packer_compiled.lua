@@ -69,20 +69,80 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://hub.fastgit.org/L3MON4D3/LuaSnip"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://hub.fastgit.org/akinsho/bufferline.nvim"
   },
-  ["coc.nvim"] = {
+  ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/user/.local/share/nvim/site/pack/packer/start/coc.nvim",
-    url = "https://hub.fastgit.org/neoclide/coc.nvim"
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://hub.fastgit.org/hrsh7th/cmp-buffer"
+  },
+  ["cmp-calc"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-calc",
+    url = "https://hub.fastgit.org/hrsh7th/cmp-calc"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
+    url = "https://hub.fastgit.org/hrsh7th/cmp-cmdline"
+  },
+  ["cmp-emoji"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-emoji",
+    url = "https://hub.fastgit.org/hrsh7th/cmp-emoji"
+  },
+  ["cmp-look"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-look",
+    url = "https://hub.fastgit.org/octaltree/cmp-look"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://hub.fastgit.org/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-nvim-lua"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
+    url = "https://hub.fastgit.org/hrsh7th/cmp-nvim-lua"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://hub.fastgit.org/hrsh7th/cmp-path"
+  },
+  ["cmp-spell"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-spell",
+    url = "https://hub.fastgit.org/f3fora/cmp-spell"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://hub.fastgit.org/saadparwaiz1/cmp_luasnip"
   },
   ["formatter.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/formatter.nvim",
     url = "https://hub.fastgit.org/mhartington/formatter.nvim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://hub.fastgit.org/rafamadriz/friendly-snippets"
+  },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://hub.fastgit.org/junegunn/fzf.vim"
   },
   ["gruvbox-material"] = {
     loaded = true,
@@ -93,6 +153,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/indentLine",
     url = "https://hub.fastgit.org/Yggdroot/indentLine"
+  },
+  ["lsp-colors.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/lsp-colors.nvim",
+    url = "https://hub.fastgit.org/folke/lsp-colors.nvim"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "https://hub.fastgit.org/onsails/lspkind-nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
+    url = "https://hub.fastgit.org/rinx/lspsaga.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -114,6 +189,26 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://hub.fastgit.org/windwp/nvim-autopairs"
   },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://hub.fastgit.org/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
+    url = "https://hub.fastgit.org/williamboman/nvim-lsp-installer"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://hub.fastgit.org/neovim/nvim-lspconfig"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://hub.fastgit.org/nvim-treesitter/nvim-treesitter"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -124,6 +219,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://hub.fastgit.org/wbthomason/packer.nvim"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://hub.fastgit.org/nvim-lua/plenary.nvim"
+  },
   rainbow = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/rainbow",
@@ -133,6 +233,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/tabular",
     url = "https://hub.fastgit.org/godlygeek/tabular"
+  },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://hub.fastgit.org/nvim-telescope/telescope-fzf-native.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://hub.fastgit.org/nvim-telescope/telescope.nvim"
   },
   ["vim-auto-save"] = {
     loaded = true,
@@ -178,11 +288,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-sensible",
     url = "https://hub.fastgit.org/tpope/vim-sensible"
-  },
-  ["vim-snippets"] = {
-    loaded = true,
-    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-snippets",
-    url = "https://hub.fastgit.org/honza/vim-snippets"
   },
   ["vim-surround"] = {
     loaded = true,
