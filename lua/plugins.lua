@@ -23,6 +23,7 @@ return require("packer").startup(
             -- Plugin Manager: Packer can manage itself
             use "wbthomason/packer.nvim"
 
+            use "lilydjwg/fcitx.vim"
             -- 主题
             use "sainnhe/gruvbox-material"
 
