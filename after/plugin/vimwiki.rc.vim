@@ -33,5 +33,3 @@ let g:vimwiki_filetypes = ['markdown']
 
 
 
-
-
