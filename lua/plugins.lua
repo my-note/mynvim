@@ -94,6 +94,8 @@ return require("packer").startup(
                     "rafamadriz/friendly-snippets" --代码段合集
                 }
             }
+            --ag
+            use "mileszs/ack.vim"
 
             --注释插件
             use "tpope/vim-commentary"

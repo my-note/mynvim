@@ -80,3 +80,26 @@ set conceallevel=0
 " augroup pandoc_syntax2
 "     autocmd! FileType vimwiki set syntax=markdown
 " augroup END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
