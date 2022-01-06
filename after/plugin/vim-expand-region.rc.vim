@@ -1,4 +1,6 @@
 " Press + to expand the visual selection and _ to shrink it.
+map = <Plug>(expand_region_expand)
+map - <Plug>(expand_region_shrink)
 
 " Default settings. (NOTE: Remove comments in dictionary before sourcing)
 let g:expand_region_text_objects = {
