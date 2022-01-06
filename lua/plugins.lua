@@ -33,6 +33,7 @@ return require("packer").startup(
             use "terryma/vim-expand-region"
             -- 主题
             use "sainnhe/gruvbox-material"
+            use "trevordmiller/nova-vim"
 
             -- 格式化 npm install --save-dev --save-exact prettier
             use "sbdchd/neoformat"

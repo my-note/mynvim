@@ -9,6 +9,7 @@ source ~/.config/nvim/after/plugin/rainbow.rc.vim
 " vimwiki
 source ~/.config/nvim/after/plugin/vimwiki.rc.vim
 " 主题
+" source ~/.config/nvim/colors/nova.rc.vim
 source ~/.config/nvim/colors/gruvbox_material.rc.vim
 
 
