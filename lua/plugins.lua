@@ -23,6 +23,11 @@ return require("packer").startup(
             -- Plugin Manager: Packer can manage itself
             use "wbthomason/packer.nvim"
 
+
+            --多行编辑
+            use "mg979/vim-visual-multi"
+
+
             --选中文本对象，进入可视模式
             use "gcmt/wildfire.vim"
             use "terryma/vim-expand-region"
