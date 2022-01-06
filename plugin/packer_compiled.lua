@@ -274,6 +274,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-easy-align",
     url = "https://hub.fastgit.org/junegunn/vim-easy-align"
   },
+  ["vim-expand-region"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-expand-region",
+    url = "https://hub.fastgit.org/terryma/vim-expand-region"
+  },
   ["vim-floaterm"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-floaterm",
@@ -319,6 +324,26 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-table-mode",
     url = "https://hub.fastgit.org/dhruvasagar/vim-table-mode"
   },
+  ["vim-textobj-entire"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-entire",
+    url = "https://hub.fastgit.org/kana/vim-textobj-entire"
+  },
+  ["vim-textobj-indent"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-indent",
+    url = "https://hub.fastgit.org/kana/vim-textobj-indent"
+  },
+  ["vim-textobj-line"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-line",
+    url = "https://hub.fastgit.org/kana/vim-textobj-line"
+  },
+  ["vim-textobj-user"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-user",
+    url = "https://hub.fastgit.org/kana/vim-textobj-user"
+  },
   ["vim-unimpaired"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-unimpaired",
@@ -328,6 +353,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://hub.fastgit.org/vimwiki/vimwiki"
+  },
+  ["wildfire.vim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/wildfire.vim",
+    url = "https://hub.fastgit.org/gcmt/wildfire.vim"
   }
 }
 

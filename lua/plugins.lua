@@ -23,7 +23,9 @@ return require("packer").startup(
             -- Plugin Manager: Packer can manage itself
             use "wbthomason/packer.nvim"
 
-            use "lilydjwg/fcitx.vim"
+            --选中文本对象，进入可视模式
+            use "gcmt/wildfire.vim"
+            use "terryma/vim-expand-region"
             -- 主题
             use "sainnhe/gruvbox-material"
 
@@ -135,6 +137,15 @@ return require("packer").startup(
             use "kyazdani42/nvim-web-devicons"
             -- bufferline 显示标签页,与lualine配合使用
             use "akinsho/bufferline.nvim"
+
+            -- 文本对象扩展
+            use "kana/vim-textobj-user"
+            use "kana/vim-textobj-line"
+            use "kana/vim-textobj-entire"
+            use "kana/vim-textobj-indent"
+            use "rhysd/vim-textobj-anyblock"
+
+
 
             -- Automatically set up your configuration after cloning packer.nvim
             -- Put this at the end after all plugins
