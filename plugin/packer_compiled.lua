@@ -194,6 +194,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/neoformat",
     url = "https://hub.fastgit.org/sbdchd/neoformat"
   },
+  ["nova-vim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/nova-vim",
+    url = "https://hub.fastgit.org/trevordmiller/nova-vim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -274,11 +279,6 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-easy-align",
     url = "https://hub.fastgit.org/junegunn/vim-easy-align"
   },
-  ["vim-expand-region"] = {
-    loaded = true,
-    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-expand-region",
-    url = "https://hub.fastgit.org/terryma/vim-expand-region"
-  },
   ["vim-floaterm"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-floaterm",
@@ -324,6 +324,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-table-mode",
     url = "https://hub.fastgit.org/dhruvasagar/vim-table-mode"
   },
+  ["vim-textobj-anyblock"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-anyblock",
+    url = "https://hub.fastgit.org/rhysd/vim-textobj-anyblock"
+  },
   ["vim-textobj-entire"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-entire",
@@ -349,15 +354,15 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-unimpaired",
     url = "https://hub.fastgit.org/tpope/vim-unimpaired"
   },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://hub.fastgit.org/mg979/vim-visual-multi"
+  },
   vimwiki = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://hub.fastgit.org/vimwiki/vimwiki"
-  },
-  ["wildfire.vim"] = {
-    loaded = true,
-    path = "/home/user/.local/share/nvim/site/pack/packer/start/wildfire.vim",
-    url = "https://hub.fastgit.org/gcmt/wildfire.vim"
   }
 }
 

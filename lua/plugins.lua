@@ -29,8 +29,8 @@ return require("packer").startup(
 
 
             --选中文本对象，进入可视模式
-            use "gcmt/wildfire.vim"
-            use "terryma/vim-expand-region"
+            -- use "gcmt/wildfire.vim"
+            -- use "terryma/vim-expand-region"
             -- 主题
             use "sainnhe/gruvbox-material"
             use "trevordmiller/nova-vim"
