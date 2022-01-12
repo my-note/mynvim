@@ -23,10 +23,17 @@ return require("packer").startup(
             -- Plugin Manager: Packer can manage itself
             use "wbthomason/packer.nvim"
 
+            -- 文件管理插件，类似与ranger。小孩子才做选择，我都要
+            use {
+                "Shougo/defx.nvim",
+                requires = {
+                    "kristijanhusak/defx-icons", -- dexf文件管理图标支持
+                    "t9md/vim-choosewin" -- 窗口选择器,可以让defx使用i打开文件
+                }
+            }
 
             --多行编辑
             use "mg979/vim-visual-multi"
-
 
             --选中文本对象，进入可视模式
             -- use "gcmt/wildfire.vim"
@@ -150,8 +157,6 @@ return require("packer").startup(
             use "kana/vim-textobj-entire"
             use "kana/vim-textobj-indent"
             use "rhysd/vim-textobj-anyblock"
-
-
 
             -- Automatically set up your configuration after cloning packer.nvim
             -- Put this at the end after all plugins

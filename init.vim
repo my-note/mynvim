@@ -11,6 +11,9 @@ source ~/.config/nvim/after/plugin/vimwiki.rc.vim
 " 主题
 " source ~/.config/nvim/colors/nova.rc.vim
 source ~/.config/nvim/colors/gruvbox_material.rc.vim
+" 文件管理插件defx,类似ranger 
+source ~/.config/nvim/after/plugin/defx-icons.rc.vim
+
 
 
 

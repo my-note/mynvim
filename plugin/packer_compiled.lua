@@ -134,6 +134,16 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://hub.fastgit.org/saadparwaiz1/cmp_luasnip"
   },
+  ["defx-icons"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/defx-icons",
+    url = "https://hub.fastgit.org/kristijanhusak/defx-icons"
+  },
+  ["defx.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/defx.nvim",
+    url = "https://hub.fastgit.org/Shougo/defx.nvim"
+  },
   ["denite.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/denite.nvim",
@@ -268,6 +278,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-auto-save",
     url = "https://hub.fastgit.org/907th/vim-auto-save"
+  },
+  ["vim-choosewin"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-choosewin",
+    url = "https://hub.fastgit.org/t9md/vim-choosewin"
   },
   ["vim-commentary"] = {
     loaded = true,
