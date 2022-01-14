@@ -13,4 +13,12 @@ inoremap <C-d> <Delete>
 nnoremap <silent> <leader>f :Format<CR>
 " 悬浮term
 nmap <silent> <leader>t :FloatermToggle<CR>
+nmap [u a <ESC>
+nmap ]u i <ESC>
+
+
+
+
+
+
 
