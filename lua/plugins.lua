@@ -22,6 +22,7 @@ return require("packer").startup(
         function(use)
             -- Plugin Manager: Packer can manage itself
             use "wbthomason/packer.nvim"
+            -- use "lilydjwg/fcitx.vim"
 
             -- 文件管理插件，类似与ranger。小孩子才做选择，我都要
             use {

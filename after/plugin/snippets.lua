@@ -570,7 +570,7 @@ ls.filetype_set("cpp", {"c"})
 -- 需要自己扩展表格而不是设置一个新表格。
 ]]
 --require("luasnip/loaders/from_vscode").load({ include = { "javascript" } }) -- Load only python snippets
-require("luasnip/loaders/from_vscode").load() -- Load only python snippets
+-- require("luasnip/loaders/from_vscode").load() -- Load only python snippets
 -- The directories will have to be structured like eg. <https://github.com/rafamadriz/friendly-snippets> (include
 -- a similar `package.json`)
 --require("luasnip/loaders/from_vscode").load({ paths = { "./my-snippets" } }) -- Load snippets from my-snippets folder
