@@ -48,7 +48,7 @@ vim.api.nvim_set_keymap("n", "<leader>/", [[<cmd>lua require'telescope.builtin'.
 
 vim.api.nvim_set_keymap(
   "n",
-  "<leader>fb",
+  "<leader>fn",
   ":Telescope file_browser <cr>",
   { noremap = true }
 )
