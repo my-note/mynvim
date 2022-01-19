@@ -87,7 +87,7 @@ return require("packer").startup(
                     "kyazdani42/nvim-web-devicons"
                 }
             }
-            use { "nvim-telescope/telescope-file-browser.nvim" }
+            use {"nvim-telescope/telescope-file-browser.nvim"}
             use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
 
             --fzf
@@ -169,8 +169,8 @@ return require("packer").startup(
         config = {
             max_jobs = 16,
             git = {
-                default_url_format = "https://hub.fastgit.org/%s"
-                -- default_url_format = "https://github.com/%s"
+                -- default_url_format = "https://hub.fastgit.org/%s"
+                default_url_format = "https://github.com/%s"
             },
             display = {
                 open_fn = function()

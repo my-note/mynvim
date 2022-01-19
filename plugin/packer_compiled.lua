@@ -249,6 +249,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://hub.fastgit.org/nvim-lua/plenary.nvim"
   },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/popup.nvim",
+    url = "https://hub.fastgit.org/nvim-lua/popup.nvim"
+  },
   rainbow = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/rainbow",
@@ -263,6 +268,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/tabular",
     url = "https://hub.fastgit.org/godlygeek/tabular"
+  },
+  ["telescope-file-browser.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
+    url = "https://hub.fastgit.org/nvim-telescope/telescope-file-browser.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
