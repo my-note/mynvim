@@ -72,322 +72,322 @@ _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/LuaSnip",
-    url = "https://hub.fastgit.org/L3MON4D3/LuaSnip"
+    url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["ack.vim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/ack.vim",
-    url = "https://hub.fastgit.org/mileszs/ack.vim"
+    url = "https://github.com/mileszs/ack.vim"
   },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
-    url = "https://hub.fastgit.org/akinsho/bufferline.nvim"
+    url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-buffer",
-    url = "https://hub.fastgit.org/hrsh7th/cmp-buffer"
+    url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-calc"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-calc",
-    url = "https://hub.fastgit.org/hrsh7th/cmp-calc"
+    url = "https://github.com/hrsh7th/cmp-calc"
   },
   ["cmp-cmdline"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-cmdline",
-    url = "https://hub.fastgit.org/hrsh7th/cmp-cmdline"
+    url = "https://github.com/hrsh7th/cmp-cmdline"
   },
   ["cmp-emoji"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-emoji",
-    url = "https://hub.fastgit.org/hrsh7th/cmp-emoji"
+    url = "https://github.com/hrsh7th/cmp-emoji"
   },
   ["cmp-look"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-look",
-    url = "https://hub.fastgit.org/octaltree/cmp-look"
+    url = "https://github.com/octaltree/cmp-look"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
-    url = "https://hub.fastgit.org/hrsh7th/cmp-nvim-lsp"
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-lua"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
-    url = "https://hub.fastgit.org/hrsh7th/cmp-nvim-lua"
+    url = "https://github.com/hrsh7th/cmp-nvim-lua"
   },
   ["cmp-path"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-path",
-    url = "https://hub.fastgit.org/hrsh7th/cmp-path"
+    url = "https://github.com/hrsh7th/cmp-path"
   },
   ["cmp-spell"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp-spell",
-    url = "https://hub.fastgit.org/f3fora/cmp-spell"
+    url = "https://github.com/f3fora/cmp-spell"
   },
   cmp_luasnip = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://hub.fastgit.org/saadparwaiz1/cmp_luasnip"
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["defx-icons"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/defx-icons",
-    url = "https://hub.fastgit.org/kristijanhusak/defx-icons"
+    url = "https://github.com/kristijanhusak/defx-icons"
   },
   ["defx.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/defx.nvim",
-    url = "https://hub.fastgit.org/Shougo/defx.nvim"
+    url = "https://github.com/Shougo/defx.nvim"
   },
   ["denite.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/denite.nvim",
-    url = "https://hub.fastgit.org/Shougo/denite.nvim"
+    url = "https://github.com/Shougo/denite.nvim"
   },
   ["formatter.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/formatter.nvim",
-    url = "https://hub.fastgit.org/mhartington/formatter.nvim"
+    url = "https://github.com/mhartington/formatter.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/friendly-snippets",
-    url = "https://hub.fastgit.org/rafamadriz/friendly-snippets"
+    url = "https://github.com/rafamadriz/friendly-snippets"
   },
   fzf = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/fzf",
-    url = "https://hub.fastgit.org/junegunn/fzf"
+    url = "https://github.com/junegunn/fzf"
   },
   ["fzf.vim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/fzf.vim",
-    url = "https://hub.fastgit.org/junegunn/fzf.vim"
+    url = "https://github.com/junegunn/fzf.vim"
   },
   ["gruvbox-material"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/gruvbox-material",
-    url = "https://hub.fastgit.org/sainnhe/gruvbox-material"
+    url = "https://github.com/sainnhe/gruvbox-material"
   },
   indentLine = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/indentLine",
-    url = "https://hub.fastgit.org/Yggdroot/indentLine"
+    url = "https://github.com/Yggdroot/indentLine"
   },
   ["lsp-colors.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/lsp-colors.nvim",
-    url = "https://hub.fastgit.org/folke/lsp-colors.nvim"
+    url = "https://github.com/folke/lsp-colors.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
-    url = "https://hub.fastgit.org/onsails/lspkind-nvim"
+    url = "https://github.com/onsails/lspkind-nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/lualine.nvim",
-    url = "https://hub.fastgit.org/nvim-lualine/lualine.nvim"
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["md-img-paste.vim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/md-img-paste.vim",
-    url = "https://hub.fastgit.org/ferrine/md-img-paste.vim"
+    url = "https://github.com/ferrine/md-img-paste.vim"
   },
   neoformat = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/neoformat",
-    url = "https://hub.fastgit.org/sbdchd/neoformat"
+    url = "https://github.com/sbdchd/neoformat"
   },
   ["nova-vim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nova-vim",
-    url = "https://hub.fastgit.org/trevordmiller/nova-vim"
+    url = "https://github.com/trevordmiller/nova-vim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
-    url = "https://hub.fastgit.org/windwp/nvim-autopairs"
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-    url = "https://hub.fastgit.org/hrsh7th/nvim-cmp"
+    url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
-    url = "https://hub.fastgit.org/williamboman/nvim-lsp-installer"
+    url = "https://github.com/williamboman/nvim-lsp-installer"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-    url = "https://hub.fastgit.org/neovim/nvim-lspconfig"
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://hub.fastgit.org/nvim-treesitter/nvim-treesitter"
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://hub.fastgit.org/kyazdani42/nvim-web-devicons"
+    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/packer.nvim",
-    url = "https://hub.fastgit.org/wbthomason/packer.nvim"
+    url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/plenary.nvim",
-    url = "https://hub.fastgit.org/nvim-lua/plenary.nvim"
-  },
-  ["popup.nvim"] = {
-    loaded = true,
-    path = "/home/user/.local/share/nvim/site/pack/packer/start/popup.nvim",
-    url = "https://hub.fastgit.org/nvim-lua/popup.nvim"
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   rainbow = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/rainbow",
-    url = "https://hub.fastgit.org/luochen1990/rainbow"
+    url = "https://github.com/luochen1990/rainbow"
   },
   rnvimr = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/rnvimr",
-    url = "https://hub.fastgit.org/kevinhwang91/rnvimr"
+    url = "https://github.com/kevinhwang91/rnvimr"
   },
   tabular = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/tabular",
-    url = "https://hub.fastgit.org/godlygeek/tabular"
+    url = "https://github.com/godlygeek/tabular"
   },
   ["telescope-file-browser.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
-    url = "https://hub.fastgit.org/nvim-telescope/telescope-file-browser.nvim"
+    url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
-    url = "https://hub.fastgit.org/nvim-telescope/telescope-fzf-native.nvim"
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/telescope.nvim",
-    url = "https://hub.fastgit.org/nvim-telescope/telescope.nvim"
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-auto-save"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-auto-save",
-    url = "https://hub.fastgit.org/907th/vim-auto-save"
+    url = "https://github.com/907th/vim-auto-save"
   },
   ["vim-choosewin"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-choosewin",
-    url = "https://hub.fastgit.org/t9md/vim-choosewin"
+    url = "https://github.com/t9md/vim-choosewin"
   },
   ["vim-commentary"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-commentary",
-    url = "https://hub.fastgit.org/tpope/vim-commentary"
+    url = "https://github.com/tpope/vim-commentary"
   },
   ["vim-easy-align"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-easy-align",
-    url = "https://hub.fastgit.org/junegunn/vim-easy-align"
+    url = "https://github.com/junegunn/vim-easy-align"
   },
   ["vim-floaterm"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-floaterm",
-    url = "https://hub.fastgit.org/voldikss/vim-floaterm"
+    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://hub.fastgit.org/tpope/vim-fugitive"
+    url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-gitgutter"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-gitgutter",
-    url = "https://hub.fastgit.org/airblade/vim-gitgutter"
+    url = "https://github.com/airblade/vim-gitgutter"
   },
   ["vim-markdown"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-markdown",
-    url = "https://hub.fastgit.org/plasticboy/vim-markdown"
+    url = "https://github.com/plasticboy/vim-markdown"
   },
   ["vim-markdown-toc"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-markdown-toc",
-    url = "https://hub.fastgit.org/mzlogin/vim-markdown-toc"
+    url = "https://github.com/mzlogin/vim-markdown-toc"
+  },
+  ["vim-md-headings"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-md-headings",
+    url = "https://github.com/gerardbm/vim-md-headings"
   },
   ["vim-repeat"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-repeat",
-    url = "https://hub.fastgit.org/tpope/vim-repeat"
+    url = "https://github.com/tpope/vim-repeat"
   },
   ["vim-sensible"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-sensible",
-    url = "https://hub.fastgit.org/tpope/vim-sensible"
+    url = "https://github.com/tpope/vim-sensible"
   },
   ["vim-surround"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-surround",
-    url = "https://hub.fastgit.org/tpope/vim-surround"
+    url = "https://github.com/tpope/vim-surround"
   },
   ["vim-table-mode"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-table-mode",
-    url = "https://hub.fastgit.org/dhruvasagar/vim-table-mode"
+    url = "https://github.com/dhruvasagar/vim-table-mode"
   },
   ["vim-textobj-anyblock"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-anyblock",
-    url = "https://hub.fastgit.org/rhysd/vim-textobj-anyblock"
+    url = "https://github.com/rhysd/vim-textobj-anyblock"
   },
   ["vim-textobj-entire"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-entire",
-    url = "https://hub.fastgit.org/kana/vim-textobj-entire"
+    url = "https://github.com/kana/vim-textobj-entire"
   },
   ["vim-textobj-indent"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-indent",
-    url = "https://hub.fastgit.org/kana/vim-textobj-indent"
+    url = "https://github.com/kana/vim-textobj-indent"
   },
   ["vim-textobj-line"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-line",
-    url = "https://hub.fastgit.org/kana/vim-textobj-line"
+    url = "https://github.com/kana/vim-textobj-line"
   },
   ["vim-textobj-user"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-textobj-user",
-    url = "https://hub.fastgit.org/kana/vim-textobj-user"
+    url = "https://github.com/kana/vim-textobj-user"
   },
   ["vim-unimpaired"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-unimpaired",
-    url = "https://hub.fastgit.org/tpope/vim-unimpaired"
+    url = "https://github.com/tpope/vim-unimpaired"
   },
   ["vim-visual-multi"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
-    url = "https://hub.fastgit.org/mg979/vim-visual-multi"
+    url = "https://github.com/mg979/vim-visual-multi"
   },
   vimwiki = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vimwiki",
-    url = "https://hub.fastgit.org/vimwiki/vimwiki"
+    url = "https://github.com/vimwiki/vimwiki"
   }
 }
 
