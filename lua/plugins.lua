@@ -32,7 +32,7 @@ return require("packer").startup(
                     "t9md/vim-choosewin" -- 窗口选择器,可以让defx使用i打开文件
                 }
             }
-
+            use "junegunn/vim-emoji"
             --多行编辑
             use "mg979/vim-visual-multi"
 
@@ -143,6 +143,8 @@ return require("packer").startup(
             -- 对齐插件
             use "godlygeek/tabular"
             -- markdown插件
+            -- :call mkdp#util#install()
+            use "iamcco/markdown-preview.nvim"
             use "plasticboy/vim-markdown"
             use "mzlogin/vim-markdown-toc"
             use "ferrine/md-img-paste.vim"
