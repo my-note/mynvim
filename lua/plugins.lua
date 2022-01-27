@@ -138,6 +138,7 @@ return require("packer").startup(
             use "Yggdroot/indentLine"
             -- align
             use "junegunn/vim-easy-align"
+            use "easymotion/vim-easymotion"
             -- vimwiki
             use {"vimwiki/vimwiki", branch = "dev"}
             -- 对齐插件

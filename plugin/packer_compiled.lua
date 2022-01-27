@@ -194,6 +194,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   ["md-img-paste.vim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/md-img-paste.vim",
@@ -299,6 +304,16 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-easy-align",
     url = "https://github.com/junegunn/vim-easy-align"
   },
+  ["vim-easymotion"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-easymotion",
+    url = "https://github.com/easymotion/vim-easymotion"
+  },
+  ["vim-emoji"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-emoji",
+    url = "https://github.com/junegunn/vim-emoji"
+  },
   ["vim-floaterm"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-floaterm",
@@ -323,11 +338,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-markdown-toc",
     url = "https://github.com/mzlogin/vim-markdown-toc"
-  },
-  ["vim-md-headings"] = {
-    loaded = true,
-    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-md-headings",
-    url = "https://github.com/gerardbm/vim-md-headings"
   },
   ["vim-repeat"] = {
     loaded = true,
