@@ -1,4 +1,14 @@
+## 文件管理器
+
+leader-s-r
+
+## easy-motion
+leader-w-w
+
 ## tpope/surround
+
+
+
 
 添加、修改和删除包裹符号(括号和标签)
 
