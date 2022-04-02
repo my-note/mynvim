@@ -1,3 +1,8 @@
+## bufexploer
+<leader>be
+<leader>bt
+<leader>bs
+<leader>bv
 ## 文件管理器
 
 leader-s-r

@@ -33,6 +33,8 @@ return require("packer").startup(
                 }
             }
             use "junegunn/vim-emoji"
+            -- 浏览缓存区文件<leader>be <leader>bt <leader>bs <leader>bv
+            use "jlanzarotta/bufexplorer"
             --多行编辑
             use "mg979/vim-visual-multi"
 

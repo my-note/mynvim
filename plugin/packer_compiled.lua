@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/ack.vim",
     url = "https://github.com/mileszs/ack.vim"
   },
+  bufexplorer = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/bufexplorer",
+    url = "https://github.com/jlanzarotta/bufexplorer"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
